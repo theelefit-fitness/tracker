@@ -1,0 +1,17 @@
+
+{
+  "projects": {
+    "staging": "theelefit-3f6c6",
+    "default": "theelefit-3f6c6"
+  },
+  "targets": {
+    "theelefit-3f6c6": {
+      "hosting": {
+        "theelefit-hosting": [
+          "theelefit-3f6c6"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

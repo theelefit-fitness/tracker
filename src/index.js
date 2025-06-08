@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import './styles/common.css'
-import './styles/shopify-integration.css'
-import App from './App.js'
+import './Tracker/index.css'
+import './Tracker/styles/common.css'
+import './Tracker/styles/shopify-integration.css'
+import App from './Tracker/App.js'
 
 // Check if we're running in Shopify environment
 const isInShopify = window.location.hostname.includes('shopify.com') || 
