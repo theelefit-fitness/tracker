@@ -52,7 +52,7 @@ body {
   align-items: center;
   list-style: none;
   margin-left: -270px;
-  font-size: 14px;
+  font-size: 16px;
 
 }
 
@@ -141,6 +141,7 @@ body {
   z-index: 2000;
   padding: 20px;
   overflow-y: auto;
+
 }
 
 .mobile-menu.active {
@@ -191,6 +192,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar__logo{
+    margin-left: 150px;
+  }
   .navbar__links {
     display: none;
     position: fixed;

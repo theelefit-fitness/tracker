@@ -34,18 +34,18 @@ function Nav() {
             </div>
 
             <ul className={`navbar__links ${isMenuActive ? 'active' : ''}`}>
-              <li><a href="#">Shop Products</a></li>
-              <li><a href="#">Loyalty Program</a></li>
-              <li><a href="#">Ask Our Coach</a></li>
+              <li><a href="https://theelefit.com/collections/all">Shop Products</a></li>
+              <li><a href="https://theelefit.com/pages/loyalty-program">Loyalty Program</a></li>
+              <li><a href="https://theelefit.com/pages/ask-our-coach">Ask Our Coach</a></li>
             </ul>
 
             <div className="navbar__icons">
-              <a href="/account">
+              <a href="https://theelefit.com/account">
                 <svg viewBox="0 0 24 24">
                   <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z" />
                 </svg>
               </a>
-              <a href="/wishlist">
+              <a href="https://theelefit.com/search/?view=wishlist">
                 <svg viewBox="0 0 24 24">
                   <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                 </svg>
@@ -76,12 +76,12 @@ function Nav() {
             </button>
           </div>
           <div className="mobile-menu__nav">
-            <a href="#">HOME</a>
-            <a href="#">SHOP PRODUCTS</a>
-            <a href="#">LOYALTY PROGRAM</a>
-            <a href="#">ASK OUR COACH</a>
-            <a href="/account">MY ACCOUNT</a>
-            <a href="/wishlist">WISHLIST</a>
+            <a href="https://theelefit.com/">HOME</a>
+            <a href="https://theelefit.com/collections/all">SHOP PRODUCTS</a>
+            <a href="https://theelefit.com/pages/loyalty-program">LOYALTY PROGRAM</a>
+            <a href="https://theelefit.com/pages/ask-our-coach">ASK OUR COACH</a>
+            <a href="https://theelefit.com/account">MY ACCOUNT</a>
+            <a href="https://theelefit.com/search/?view=wishlist">WISHLIST</a>
             <a href="/cart">CART</a>
           </div>
         </div>

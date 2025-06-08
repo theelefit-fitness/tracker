@@ -36,11 +36,11 @@ const Footer = () => {
           <div className="links-contact">
             <div>
               <h3>Quick links</h3>
-              <a href="#">HOME</a>
-              <a href="#">ABOUT</a>
-              <a href="#">PRODUCTS</a>
-              <a href="#">CONTACT US</a>
-              <a href="#">BLOGS AND NEWS</a>
+              <a href="https://theelefit.com/">HOME</a>
+              <a href="https://theelefit.com/pages/about-us">ABOUT</a>
+              <a href="https://theelefit.com/collections/frontpage">PRODUCTS</a>
+              <a href="https://theelefit.com/pages/contact">CONTACT US</a>
+              <a href="https://theelefit.com/blogs/news">BLOGS AND NEWS</a>
             </div>
             <div>
               <h3>Contact us</h3>
@@ -50,9 +50,9 @@ const Footer = () => {
             <div>
               <h3 className='follow-us'>Follow us</h3>
               <div className="social-icons">
-                <a href="#"><FaFacebookF /></a>
-                <a href="#"><FaInstagram /></a>
-                <a href="#"><FaLinkedinIn /></a>
+                <a href="https://www.facebook.com/profile.php?id=61556458930221"><FaFacebookF /></a>
+                <a href="https://www.instagram.com/elefitstore/"><FaInstagram /></a>
+                <a href="https://www.linkedin.com/company/the-elefit-store/"><FaLinkedinIn /></a>
               </div>
             </div>
           </div>
@@ -62,9 +62,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer">
-        <a href="#">TERMS & CONDITION</a>
-        <a href="#">PRIVACY POLICY</a>
-        <a href="#">RETURN POLICY</a>
+        <a href="https://theelefit.com/policies/terms-of-service">TERMS & CONDITION</a>
+        <a href="https://theelefit.com/policies/privacy-policy">PRIVACY POLICY</a>
+        <a href="https://theelefit.com/policies/refund-policy">RETURN POLICY</a>
         <span>© 2025 ELEFIT</span>
       </div>
     </div>
